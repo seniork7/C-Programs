@@ -7,7 +7,7 @@ int main()
 	/*Variables: i is to count the unsorted elements in the array
 				j is to track to sorted elements in the array
 				min is to store the smallest value in the array
-				y is tracking the swaping of elements in the aarray
+				y is tracking the swapping of elements in the aarray
 	*/
     int i, j, min, temp, y;
     int arr[]= {8,1,3,5,7};
