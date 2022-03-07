@@ -3,7 +3,7 @@
 int main()
 {
     int a[3][3];
-    int i, j, y = 0, sumRow, sumCol, sum = 0;
+    int i, j, sumRow, sumCol, sum = 0;
 
 	printf("\n\t\t\t\t\t\tEnter array elements:\n");
 
@@ -47,7 +47,6 @@ system("cls");
     {
         sumRow = sumCol = 0;
         printf("\t\t\t\t\t\t");
-        y++;
         for (j=0; j<3; j++)
 	    {
 	        sumRow = sumRow + a[i][j];
